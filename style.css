@@ -3,7 +3,11 @@ body{
 }
 
 .title{
-    font-size: 50px;
+    font-size: 70px;
+    background-color: #ff1e44;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 #mensagem{
@@ -29,6 +33,10 @@ body{
     padding: 0;
 }
 
+.btn{
+   font-size: 30px;
+}
+
 @media screen and (max-width: 500px){
     body{
         background-image: url(./imgs/c70f6b98f55b58d37117f7faf59c3c8d.jpg);
@@ -40,8 +48,11 @@ body{
     
         
     }
+    .title{
+        font-size: 60px;
+    }
     #mensagem{
-        background-color: rgba(0, 0, 0, 0.712);
+        background-color: rgba(0, 0, 0, 0.459);
         padding: 15px;
         width: 90%;
         height: auto;
@@ -50,6 +61,38 @@ body{
         top:30%;
         left: 5%;
     }
+    #b2{
+        position: absolute;
+        top: 80%;
+    }
+
+    .btn{
+        border: none;
+        font-size:19px;
+    }
+
+    #grupo1{
+        position: absolute;
+    
+        top: 20%;
+        left: -4%;
+        
+    }
+    #grupo2{
+        position: absolute;
+       
+        top: 27%;
+        left: 33%;
+        
+    }
+
+    #grupo3{
+        top: -5%;
+        left: -29%;
+    }
+   
+
+   
     #footer{
         position: absolute;
         top: 120%;
