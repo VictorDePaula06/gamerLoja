@@ -63,32 +63,33 @@ body{
     }
     #b2{
         position: absolute;
-        top: 80%;
+        top: 90%;
     }
 
     .btn{
         border: none;
-        font-size:19px;
+        font-size:17px;
     }
 
     #grupo1{
         position: absolute;
     
         top: 20%;
-        left: -4%;
+        left: -7%;
         
     }
     #grupo2{
         position: absolute;
-       
+        width: 150px;
         top: 27%;
-        left: 33%;
+        left: 32%;
         
     }
 
     #grupo3{
-        top: -5%;
-        left: -29%;
+        width: 135px;
+        top: -3%;
+        left: -37%;
     }
    
 
