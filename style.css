@@ -2,7 +2,7 @@ body{
     font-family: 'Bangers', cursive;
 }
 
-.title{
+.title2{
     font-size: 70px;
     background-color: #ff1e44;
     color: black;
@@ -10,14 +10,13 @@ body{
     margin-bottom: 30px;
 }
 
-#mensagem{
+  #mensagem{
+ 
     color: #ff1e44 ;
     max-width: 500px;
-    height: 700px;
-    position: absolute;
-    top: 30%;
-    left: 60%;
-}
+    height: auto;
+   
+}   
 #header{
     background-color: #ff1e44;
 }
@@ -37,65 +36,52 @@ body{
    font-size: 30px;
 }
 
+.colunas{
+    border-radius: 30px;
+}
+.botoes{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding: 10px;
+   
+    
+}
+
 @media screen and (max-width: 500px){
-    body{
-        background-image: url(./imgs/c70f6b98f55b58d37117f7faf59c3c8d.jpg);
-        background-size: 100%;
+    body{ 
+        background-image: url(/imgs/c70f6b98f55b58d37117f7faf59c3c8d.jpg);
         background-attachment: fixed;
+    }
+  
+
+    #mensagem{
+        color: #ff1e44;
+        padding: 30px;
+        width: 400px;
+       
     }
     #image{
         display: none;
-    
-        
     }
-    .title{
-        font-size: 60px;
+    .title1{
+        display: none;
     }
-    #mensagem{
-        background-color: rgba(0, 0, 0, 0.459);
-        padding: 15px;
-        width: 90%;
-        height: auto;
-        text-align: center;
-        position: absolute;
-        top:30%;
-        left: 5%;
+    h3{
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 30px;
     }
-    #b2{
-        position: absolute;
-        top: 90%;
+    .colunas{
+        border-radius: 30px;
+    }
+    .botoes{
+        border: 3px solid black;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-bottom: 8px;
     }
 
-    .btn{
-        border: none;
-        font-size:17px;
-    }
-
-    #grupo1{
-        position: absolute;
-    
-        top: 20%;
-        left: -7%;
-        
-    }
-    #grupo2{
-        position: absolute;
-        width: 150px;
-        top: 27%;
-        left: 32%;
-        
-    }
-
-    #grupo3{
-        width: 135px;
-        top: -3%;
-        left: -37%;
-    }
-   
-
-   
-    #footer{
-        position: absolute;
-        top: 120%;
-    }
 }
+
