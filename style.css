@@ -51,15 +51,18 @@ body{
 
 @media screen and (max-width: 500px){
     body{ 
-        background-image: url(/imgs/c70f6b98f55b58d37117f7faf59c3c8d.jpg);
+        background-image: url(/imgs/inicial.png);
         background-attachment: fixed;
+        background-size: cover;
     }
   
 
     #mensagem{
-        color: #ff1e44;
+        color: #000000;
         padding: 30px;
         width: 400px;
+        border-radius: 20px;
+        background-color: rgba(155, 155, 155, 0.705);
        
     }
     #image{
