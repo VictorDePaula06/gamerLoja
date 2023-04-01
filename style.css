@@ -45,11 +45,14 @@ body{
     margin-top: 5px;
     margin-bottom: 8px;
     padding: 10px;
-   
-    
+     
 }
 
-@media screen and (max-width: 500px){
+#produtos{
+    background-image: url(./imgs/fundo-cosmico.jpg);
+}
+
+@media screen and (max-width: 600px){
     body{ 
         background-image: url(/imgs/inicial.png);
         background-attachment: fixed;
@@ -85,6 +88,7 @@ body{
         margin-top: 5px;
         margin-bottom: 8px;
     }
+
 
 }
 
