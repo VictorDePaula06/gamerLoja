@@ -26,7 +26,9 @@ body{
     margin: 0;
     padding: 20px;
 
+
 }
+
 #image{
     margin:0px;
     padding: 0;
@@ -48,24 +50,83 @@ body{
      
 }
 
-#produtos{
-    background-image: url(./imgs/fundo-cosmico.jpg);
+#titlePromocoes{
+    background-color: #ff1e44;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 90px;
+    color: black;
+    border-bottom: black 10px solid;
+    border-radius:30px ;
 }
 
+#produtos{
+    background-image: url(./imgs/fundo-cosmico.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 30px;
+    width: 100%;
+}
+
+form{
+    margin: auto;
+    width: 450px;
+    padding: 40px;
+    border: #ff1e44 3px solid;
+    border-radius:30px ;
+    font-size: 1.5rem;
+}
+
+.formulario{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: #ff1e44;
+    font-size: 40px;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color: #ff1e44;
+    padding: 20px;
+    
+}
+#containerContato{
+    background-color: #777072;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.contato{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
 @media screen and (max-width: 600px){
-    body{ 
+    /* body{ 
         background-image: url(./imgs/inicial.png);
         background-attachment: fixed;
         background-size: cover;
-    }
+    } */
   
 
     #mensagem{
-        color: #000000;
+        color: #ff1e44;
         padding: 30px;
         width: 400px;
         border-radius: 20px;
-        background-color: rgba(155, 155, 155, 0.705);
+       background-image: url(./imgs/fundo-cosmico.jpg);
        
     }
     #image{
@@ -88,6 +149,37 @@ body{
         margin-top: 5px;
         margin-bottom: 8px;
     }
+
+    #titlePromocoes{
+        width: 400px;
+        font-size: 40px;
+        padding: 20px;
+        background-color: #ff1e44;
+        color: black;
+        border-bottom: black 5px solid;
+    }
+
+  
+    form{
+        margin: auto;
+        width: 100%;
+        border: none;
+        border-radius:30px ;
+        font-size: 1.5rem;
+    }
+
+    #containerContato{
+        background-color: #777072;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .contato{
+        width: 100px;
+    }
+
+    
 
 
 }
