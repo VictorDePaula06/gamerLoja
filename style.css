@@ -54,7 +54,7 @@ body{
 
 @media screen and (max-width: 600px){
     body{ 
-        background-image: url(/imgs/inicial.png);
+        background-image: url(./imgs/inicial.png);
         background-attachment: fixed;
         background-size: cover;
     }
