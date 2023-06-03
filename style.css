@@ -1,8 +1,9 @@
-body{
+body {
     font-family: 'Bangers', cursive;
+    background-color: #ff1e44;
 }
 
-.title2{
+.title2 {
     font-size: 70px;
     background-color: #ff1e44;
     color: black;
@@ -10,17 +11,24 @@ body{
     margin-bottom: 30px;
 }
 
-  #mensagem{
- 
-    color: #ff1e44 ;
+#mensagem {
+
+    color: white;
     max-width: 500px;
     height: auto;
-   
-}   
-#header{
+    font-size: 1.2rem;
+
+}
+
+#body_principal{
+    background-image: url(./imgs/fundo-cosmico.jpg);
+}
+
+#header {
     background-color: #ff1e44;
 }
-#footer{
+
+#footer {
     background-color: #ff1e44;
     text-align: center;
     margin: 0;
@@ -29,28 +37,29 @@ body{
 
 }
 
-#image{
-    margin:0px;
+#image {
+    margin: 0px;
     padding: 0;
 }
 
-.btn{
-   font-size: 30px;
+.btn {
+    font-size: 30px;
 }
 
-.colunas{
+.colunas {
     border-radius: 30px;
 }
-.botoes{
+
+.botoes {
     border: 3px solid black;
     border-radius: 20px;
     margin-top: 5px;
     margin-bottom: 8px;
     padding: 10px;
-     
+
 }
 
-#titlePromocoes{
+#titlePromocoes {
     background-color: #ff1e44;
     width: 1000px;
     margin: auto;
@@ -58,27 +67,26 @@ body{
     font-size: 90px;
     color: black;
     border-bottom: black 10px solid;
-    border-radius:30px ;
+    border-radius: 30px;
 }
 
-#produtos{
-    background-image: url(./imgs/fundo-cosmico.jpg);
+#produtos {
     background-size: cover;
     background-attachment: fixed;
     border-radius: 30px;
     width: 100%;
 }
 
-form{
+form {
     margin: auto;
     width: 450px;
     padding: 40px;
     border: #ff1e44 3px solid;
-    border-radius:30px ;
+    border-radius: 30px;
     font-size: 1.5rem;
 }
 
-.formulario{
+.formulario {
     box-sizing: border-box;
     width: 300px;
     padding: 10px;
@@ -87,70 +95,75 @@ form{
     border-radius: 10px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background-color: #ff1e44;
     font-size: 40px;
-    
+
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: black;
     color: #ff1e44;
     padding: 20px;
-    
+
 }
-#containerContato{
+
+#containerContato {
     background-color: #777072;
     text-align: center;
     margin: 0;
     padding: 20px;
 }
 
-.contato{
+.contato {
     margin: 20px;
     padding: 20px;
 }
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     /* body{ 
         background-image: url(./imgs/inicial.png);
         background-attachment: fixed;
         background-size: cover;
     } */
-  
 
-    #mensagem{
+
+    #mensagem {
         color: #ff1e44;
         padding: 30px;
         width: 400px;
         border-radius: 20px;
-       background-image: url(./imgs/fundo-cosmico.jpg);
-       
+
     }
-    #image{
+
+    #image {
         display: none;
     }
-    .title1{
+
+    .title1 {
         display: none;
     }
-    h3{
+
+    h3 {
         border-radius: 10px;
         padding: 10px;
         font-size: 30px;
     }
-    .colunas{
+
+    .colunas {
         border-radius: 30px;
     }
-    .botoes{
+
+    .botoes {
         border: 3px solid black;
         border-radius: 20px;
         margin-top: 5px;
         margin-bottom: 8px;
     }
 
-    #titlePromocoes{
+    #titlePromocoes {
         width: 400px;
         font-size: 40px;
         padding: 20px;
@@ -159,28 +172,27 @@ input[type="submit"]:hover{
         border-bottom: black 5px solid;
     }
 
-  
-    form{
+
+    form {
         margin: auto;
         width: 100%;
         border: none;
-        border-radius:30px ;
+        border-radius: 30px;
         font-size: 1.5rem;
     }
 
-    #containerContato{
+    #containerContato {
         background-color: #777072;
         text-align: center;
         margin: 0;
         width: 100%;
     }
 
-    .contato{
+    .contato {
         width: 100px;
     }
 
-    
+
 
 
 }
-
